@@ -1,0 +1,83 @@
+{
+    "isInterrupt": {},
+    "catN": {
+        "ExclusiveGateway_1449jmr": "AndGateway",
+        "EndEvent_0a59w28": "NoneEndEvent",
+        "EndEvent_1bu7x75": "NoneEndEvent",
+        "StartEvent_1": "NoneStartEvent",
+        "StartEvent_09ojxru": "NoneStartEvent",
+        "P_": "Process",
+        "EndEvent_0atuxkh": "NoneEndEvent",
+        "SubProcess_1glz8ii": "SubProcess"
+    },
+    "catE": {
+        "SequenceFlow_1ue74ws": "NormalSequenceFlow",
+        "SequenceFlow_12utbfs": "NormalSequenceFlow",
+        "SequenceFlow_00j4ong": "NormalSequenceFlow",
+        "SequenceFlow_1yn4txk": "NormalSequenceFlow",
+        "SequenceFlow_0xc489r": "NormalSequenceFlow"
+    },
+    "containN": {
+        "P_": [
+            "StartEvent_1",
+            "SubProcess_1glz8ii",
+            "EndEvent_0a59w28"
+        ],
+        "SubProcess_1glz8ii": [
+            "StartEvent_09ojxru",
+            "EndEvent_0atuxkh",
+            "EndEvent_1bu7x75",
+            "ExclusiveGateway_1449jmr"
+        ]
+    },
+    "messageE": {},
+    "timeInformation": {},
+    "targetE": {
+        "SequenceFlow_1ue74ws": "EndEvent_1bu7x75",
+        "SequenceFlow_12utbfs": "SubProcess_1glz8ii",
+        "SequenceFlow_00j4ong": "EndEvent_0a59w28",
+        "SequenceFlow_1yn4txk": "ExclusiveGateway_1449jmr",
+        "SequenceFlow_0xc489r": "EndEvent_0atuxkh"
+    },
+    "name": "e036SP",
+    "attached": {},
+    "containE": {
+        "P_": [
+            "SequenceFlow_12utbfs",
+            "SequenceFlow_00j4ong"
+        ],
+        "SubProcess_1glz8ii": [
+            "SequenceFlow_1yn4txk",
+            "SequenceFlow_0xc489r",
+            "SequenceFlow_1ue74ws"
+        ]
+    },
+    "edges": [
+        "SequenceFlow_12utbfs",
+        "SequenceFlow_00j4ong",
+        "SequenceFlow_1yn4txk",
+        "SequenceFlow_0xc489r",
+        "SequenceFlow_1ue74ws"
+    ],
+    "messages": [],
+    "sourceE": {
+        "SequenceFlow_1ue74ws": "ExclusiveGateway_1449jmr",
+        "SequenceFlow_12utbfs": "StartEvent_1",
+        "SequenceFlow_00j4ong": "SubProcess_1glz8ii",
+        "SequenceFlow_1yn4txk": "StartEvent_09ojxru",
+        "SequenceFlow_0xc489r": "ExclusiveGateway_1449jmr"
+    },
+    "nodes": [
+        "P_",
+        "StartEvent_1",
+        "SubProcess_1glz8ii",
+        "EndEvent_0a59w28",
+        "StartEvent_09ojxru",
+        "EndEvent_0atuxkh",
+        "EndEvent_1bu7x75",
+        "ExclusiveGateway_1449jmr"
+    ],
+    "nameN": {
+        "SubProcess_1glz8ii": "SP"
+    }
+}
